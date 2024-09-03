@@ -43,6 +43,14 @@ img {
     border: 3px solid #7D8CC4;
     width: 650px;
     list-style-type: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.menu-list li:hover {
+    background-color: #e8d7c5;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
 }
 
 .menu-list li a {
